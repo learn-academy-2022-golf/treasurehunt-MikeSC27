@@ -16,7 +16,11 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
     Branch: alert-index done checkmark
 
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
+
     Branch: tree-emoji ✅
+
+
+
 
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
     Branch: winner-loser ✅

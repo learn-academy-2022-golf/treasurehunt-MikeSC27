@@ -20,6 +20,7 @@ const App = () => {
   const handleGamePlay = (index) => {
     // alert(index)
     let updatedBoard = [...board]
+\
     if(index === treasureLocation) {
       updatedBoard[index] = "💰"
       setBoard(updatedBoard)
@@ -34,6 +35,10 @@ const App = () => {
 
     // updatedBoard[index] = "🏝️"
     // setBoard(updatedBoard)
+=======
+    updatedBoard[index] = "🏝️"
+    setBoard(updatedBoard)
+
   }
 
   return (
